@@ -151,7 +151,6 @@ document.write(`<h4>Users who have status "true"</h4>`)
 for (let user of users) {
     if (user.status) {
         document.write(`<p>user ${user.name} has status "true"</p>`)
-    } else {
     }
 }
 
@@ -162,7 +161,6 @@ document.write(`<h4>Users who have status "false"</h4>`)
 for (let user of users) {
     if (!user.status) {
         document.write(`<p>user ${user.name} has status "false"</p>`)
-    } else {
     }
 }
 
@@ -173,7 +171,6 @@ document.write(`<h4>Users who are older than 30 years</h4>`)
 for (let user of users) {
     if (user.age > 30) {
         document.write(`<p>user ${user.name} are older than 30 years he is ${user.age}</p>`)
-    } else {
     }
 }
 
